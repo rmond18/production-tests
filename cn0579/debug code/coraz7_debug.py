@@ -47,8 +47,8 @@ import os.path
 import time
 
 def record_data(sn, channel, snr, thd, sinad, enob, sfdr, floor):
-    file_exists = os.path.exists('d17_report.csv')
-    record = open("d17_report.csv","a")
+    file_exists = os.path.exists('coraz7_report.csv')
+    record = open("coraz7_report.csv","a")
    
     if(file_exists==0):
         record.write("SN, Channel, SNR, THD, SINAD, ENOB, SFDR, FLOOR\n")
